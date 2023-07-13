@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Button from '../components/ui/Button';
+import { uploadImage } from '../api/uploader';
 
 export default function NewProducts() {
   const [product, setProduct] = useState({});
@@ -14,6 +15,9 @@ export default function NewProducts() {
   };
   const handleSubmit = (e) => {
     e.preventDefault();
+    uploadImage(file).then((url) => {
+      console.log(url);
+    });
     //제품의 사진을 클라우디에 업로드 하고  url 획득
     //파이어베이스에 새로운 제품을 추가함
   };
