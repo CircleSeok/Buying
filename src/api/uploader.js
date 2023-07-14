@@ -1,8 +1,8 @@
 export async function uploadImage(file) {
   const data = new FormData();
   data.append('file', file);
-  data.append('upload_preset', 'dx8onw52');
-  return fetch('https://api.cloudinary.com/v1_1/dos0w4ils/image/upload', {
+  data.append('upload_preset', process.env.REACT_APP_CLOUDINARY_PRESET);
+  return fetch(process.env.REACT_APP_CLOUDINARY_URL, {
     method: 'POST',
     body: data,
   })
