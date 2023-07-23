@@ -52,7 +52,7 @@ export default function NewProduct() {
           alt='local file'
         />
       )}
-      <form className='flex flex-col px-12' onSubmit={handleSubmit}>
+      <form className='flex flex-col px-12 mb-5' onSubmit={handleSubmit}>
         <input
           type='file'
           accept='image/*'

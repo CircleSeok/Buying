@@ -39,7 +39,6 @@ export function onUserStateChange(callback) {
     callback(updateUser);
   });
 }
-//사용자의 로그인 상태 변화를 감지하고, 상태 변화에 따라 콜백 함수를 실행합니다. onAuthStateChanged(auth, callback) 함수를 호출하여 인증 상태가 변경될 때마다 사용자 객체를 user 매개변수로 갖는 콜백 함수를 실행합니다. 이를 통해 로그인, 로그아웃, 사용자 변경 등의 상태 변화를 감지하고 적절한 동작을 수행할 수 있습니다.
 
 async function adminUser(user) {
   //2. 사용자가 어드민 권한을 가지고 있는지 확인
