@@ -61,6 +61,10 @@
 ReactRouterDom 에서 제공해주는 **useNavigate를 사용**하여 경로를 이용하여 접근하면 홈으로 redirect 된다.
 새로운 제품을 등록할 때 **usemutation을 사용**해 products 캐시키를 가지고 있는 것들을 즉각적으로 업데이트한다.
 
+### 제품 등록
+
+**remove를 사용**하여  firebase database 안에 'products' 경로에서 해당 제품을 참조하고 제품의 id 값을 삭제한다.
+
 ### 제품 보여주기
 
 **get을 사용**하여 firebase database 안에 있는 값들을 가져온다.
