@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import Button from '../components/ui/Button';
 import useCart from '../hooks/useCart';
+import { useAuthContext } from '../context/AuthContext';
+import { deleteProduct } from '../api/firebase';
+import DeleteBtn from '../components/ui/DeleteBtn';
 
 export default function ProductDetail() {
   const { addOrUpdateItem } = useCart();
@@ -23,9 +26,26 @@ export default function ProductDetail() {
     });
   };
 
+  const { user } = useAuthContext();
+
+  const handleDelete = async () => {
+    const confirmDelete = window.confirm('정말로 상품을 삭제하시겠습니까?');
+    if (confirmDelete) {
+      // 삭제 시도
+      const deleted = await deleteProduct(id);
+      if (deleted) {
+        alert('상품이 성공적으로 삭제되었습니다.');
+        // 삭제 후 이전 페이지로 이동
+        window.history.back();
+      } else {
+        alert('상품 삭제 중 오류가 발생하였습니다.');
+      }
+    }
+  };
+
   return (
     <>
-      <p className='text-2xl mx-12 mt-4 text-gray-700'>{category}</p>
+      <p className='mx-12 mt-4 text-gray-700'>{category}</p>
       <section className='flex flex-col md:flex-row p-4'>
         <img className='w-full px-4 basis-7/12' src={image} alt={title} />
         <div className='w-full basis-5/12 flex flex-col p-4'>
@@ -52,6 +72,10 @@ export default function ProductDetail() {
           </div>
           {success && <p className='my-2'>✅{success}</p>}
           <Button text='장바구니에 추가' onClick={handleClick} />
+          {/* 관리자로 로그인한 경우에만 삭제 버튼을 보여준다. */}
+          {user?.isAdmin && (
+            <DeleteBtn text='상품 삭제' onClick={handleDelete} />
+          )}
         </div>
       </section>
     </>

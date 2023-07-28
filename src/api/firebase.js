@@ -40,7 +40,7 @@ export function onUserStateChange(callback) {
   });
 }
 
-async function adminUser(user) {
+export async function adminUser(user) {
   //2. 사용자가 어드민 권한을 가지고 있는지 확인
   //3. {...user, isAdmin: ture/ false}
   return get(ref(database, 'admins')) //
@@ -89,4 +89,18 @@ export async function addOrUpdateToCart(userId, product) {
 
 export async function removeFromCart(userId, productId) {
   return remove(ref(database, `carts/${userId}/${productId}`));
+}
+
+export async function deleteProduct(productId) {
+  try {
+    // 'products' 경로에서 해당 제품을 참조
+    // 제품을 삭제
+    await remove(ref(database, `products/${productId}`));
+
+    console.log('제품이 성공적으로 삭제되었습니다.');
+    return true;
+  } catch (error) {
+    console.error('제품 삭제 오류:', error);
+    return false;
+  }
 }

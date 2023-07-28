@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { addNewProduct } from '../api/firebase';
 import { uploadImage } from '../api/uploader';
 import Button from '../components/ui/Button';
 
@@ -16,7 +15,7 @@ export default function NewProduct() {
     const { name, value, files } = e.target;
     if (name === 'file') {
       setFile(files && files[0]);
-      // console.log(files[0]);
+
       return;
     }
     setProduct((product) => ({ ...product, [name]: value }));
@@ -52,7 +51,7 @@ export default function NewProduct() {
           alt='local file'
         />
       )}
-      <form className='flex flex-col px-12 mb-5' onSubmit={handleSubmit}>
+      <form className='flex flex-col px-12' onSubmit={handleSubmit}>
         <input
           type='file'
           accept='image/*'
