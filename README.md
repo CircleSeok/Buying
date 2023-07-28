@@ -1,7 +1,7 @@
 # 프로젝트명 : Buying
 
 
-![예시이미지](./assets/BuyingImg)
+![예시이미지](./assets/buyingImg)
 
 
 - 쇼핑몰 웹사이트
