@@ -1,4 +1,4 @@
-# 🌱프로젝트명 : Buying
+### 🌱프로젝트명 : Buying
 
 
 ![예시이미지](https://drive.google.com/file/d/1ars1dgxlfI4DybL-w-VkoJQK924EXNHG/view?usp=drive_link)
