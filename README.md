@@ -16,7 +16,7 @@
       제품 등록
     </td>
     <td align="center">
-      <img width="500" height="500" src="https://github.com/CircleSeok/Buying/assets/107212281/f9ea6a59-c9ec-4c51-990b-af22b2dcfa23" alt="custom-style-modal">
+      <img width="700" height="500" src="https://github.com/CircleSeok/Buying/assets/107212281/f9ea6a59-c9ec-4c51-990b-af22b2dcfa23" alt="custom-style-modal">
     </td>
   </tr>
   <tr>
@@ -24,7 +24,7 @@
       장바구니
     </td>
     <td align="center">
-      <img width="500" height="500" src="https://github.com/CircleSeok/Buying/assets/107212281/f9ea6a59-c9ec-4c51-990b-af22b2dcfa23" alt="custom-style-modal">
+      <img width="700" height="500" src="https://github.com/CircleSeok/Buying/assets/107212281/f9ea6a59-c9ec-4c51-990b-af22b2dcfa23" alt="custom-style-modal">
     </td>
     </tr>
 </table>
@@ -35,7 +35,7 @@
       제품 상세
     </td>
     <td align="center">
-      <img width="500" height="500" src="https://github.com/CircleSeok/Buying/assets/107212281/30fbdbcd-840e-46de-9f7e-babf990aba12" alt="custom-style-modal">
+      <img width="700" height="500" src="https://github.com/CircleSeok/Buying/assets/107212281/30fbdbcd-840e-46de-9f7e-babf990aba12" alt="custom-style-modal">
     </td>
   </tr>
 </table>
@@ -46,7 +46,7 @@
       제품 상세 [어드민]
     </td>
     <td align="center">
-      <img width="500" height="500" src="https://github.com/CircleSeok/Buying/assets/107212281/d4e3d4f5-5aba-4bbb-86a3-887eea371873" alt="custom-style-modal">
+      <img width="700" height="500" src="https://github.com/CircleSeok/Buying/assets/107212281/d4e3d4f5-5aba-4bbb-86a3-887eea371873" alt="custom-style-modal">
     </td>  
   </tr>
 </table>
