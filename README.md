@@ -24,7 +24,7 @@
       장바구니
     </td>
     <td align="center">
-      <img width="700" height="500" src="https://github.com/CircleSeok/Buying/assets/107212281/f9ea6a59-c9ec-4c51-990b-af22b2dcfa23" alt="custom-style-modal">
+      <img width="700" height="500" src="https://github.com/CircleSeok/Buying/assets/107212281/62ddbdf4-3664-4572-ae33-dc2aef18fae3" alt="custom-style-modal">
     </td>
     </tr>
 </table>
