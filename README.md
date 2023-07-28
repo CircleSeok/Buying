@@ -8,6 +8,51 @@
 - 쇼핑몰 웹사이트
 ---
 
+## 🌱주요 기능
+
+<table>
+ <tr>
+    <td align="center" width="100" height="500">
+      제품 등록
+    </td>
+    <td align="center">
+      <img width="500" height="500" src="https://github.com/CircleSeok/Buying/assets/107212281/f9ea6a59-c9ec-4c51-990b-af22b2dcfa23" alt="custom-style-modal">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="100" height="500">
+      장바구니
+    </td>
+    <td align="center">
+      <img width="500" height="500" src="https://github.com/CircleSeok/Buying/assets/107212281/f9ea6a59-c9ec-4c51-990b-af22b2dcfa23" alt="custom-style-modal">
+    </td>
+    </tr>
+</table>
+
+ <table>
+ <tr>
+    <td align="center" width="100" height="500">
+      제품 상세
+    </td>
+    <td align="center">
+      <img width="500" height="500" src="https://github.com/CircleSeok/Buying/assets/107212281/30fbdbcd-840e-46de-9f7e-babf990aba12" alt="custom-style-modal">
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td align="center" width="100" height="500">
+      제품 상세 [어드민]
+    </td>
+    <td align="center">
+      <img width="500" height="500" src="https://github.com/CircleSeok/Buying/assets/107212281/d4e3d4f5-5aba-4bbb-86a3-887eea371873" alt="custom-style-modal">
+    </td>  
+  </tr>
+</table>
+
+
+
 <img src="https://github.com/CircleSeok/Buying/assets/107212281/f9ea6a59-c9ec-4c51-990b-af22b2dcfa23" width="600" height="600"/>
 
 ![addProduct](https://github.com/CircleSeok/Buying/assets/107212281/f9ea6a59-c9ec-4c51-990b-af22b2dcfa23)
