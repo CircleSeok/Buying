@@ -8,7 +8,7 @@
 - 쇼핑몰 웹사이트
 ---
 
-<img src="https://github.com/CircleSeok/Buying/assets/107212281/f9ea6a59-c9ec-4c51-990b-af22b2dcfa23" width="400" height="400"/>
+<img src="https://github.com/CircleSeok/Buying/assets/107212281/f9ea6a59-c9ec-4c51-990b-af22b2dcfa23" width="600" height="600"/>
 
 ![addProduct](https://github.com/CircleSeok/Buying/assets/107212281/f9ea6a59-c9ec-4c51-990b-af22b2dcfa23)
 ![Cart](https://github.com/CircleSeok/Buying/assets/107212281/62ddbdf4-3664-4572-ae33-dc2aef18fae3)
