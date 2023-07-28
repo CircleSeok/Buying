@@ -12,7 +12,7 @@
 
 💙[사이트]()
 
-💻 [시연 영상](https://youtu.be/PIYwlstUXBk)
+💻 [시연 영상](https://youtu.be/DowqId72K-I)
 
 ---
 
