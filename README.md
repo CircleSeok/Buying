@@ -16,6 +16,7 @@
       제품 등록
     </td>
     <td align="center">
+     ![addProduct](https://github.com/CircleSeok/Buying/assets/107212281/30d20a85-7afd-43ac-a749-e9b49387e970)
       <img width="800" height="500" src="https://github.com/CircleSeok/Buying/assets/107212281/f9ea6a59-c9ec-4c51-990b-af22b2dcfa23" alt="custom-style-modal">
     </td>
   </tr>
