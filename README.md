@@ -1,7 +1,7 @@
 # 프로젝트명 : Buying
 
 
-![buyingImg](https://github.com/CircleSeok/Buying/assets/107212281/ed3d382e-e76d-4acf-bd78-45de72a80fff)
+![buyingImg](https://github.com/CircleSeok/Buying/assets/107212281/c778149e-4f1f-42de-a6e8-708b50fe637f)
 
 
 
