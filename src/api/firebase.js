@@ -1,4 +1,3 @@
-// Import the functions you need from the SDKs you need
 import { initializeApp } from 'firebase/app';
 import { v4 as uuid } from 'uuid';
 import {
