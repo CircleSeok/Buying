@@ -83,7 +83,7 @@ admin사용자로 접근했을때는 상품을 삭제할수 있는 버튼이 보
 
 ---
 
-👉 [사이트]()
+👉 [사이트](https://buying-wo4l.vercel.app/)
 
 💻 [시연 영상](https://youtu.be/DowqId72K-I)
 
